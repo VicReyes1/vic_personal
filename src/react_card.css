@@ -3,11 +3,31 @@
     height: 100px;
     
 }
+#contenido{
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+.caja{
+   border: 10px solid black;
+   border-radius: 20%;
+   display: inline-block;
+   width: 33%;
+   box-shadow: black;
+   text-align: center;
+   
+}
+.caja p{
+    text-shadow: 1px 1px 1px orange;
+}
+
 .caja:hover{
     background-color: yellow;
-   border: 1px solid black;
+   border: 10px solid black;
    display: inline-block;
    box-shadow: black;
+}
+.caja:hover p{
+    text-shadow: 1px 1px 1px white;
 }
 .imagenPerfil{
     text-align: center;
