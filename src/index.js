@@ -14,6 +14,9 @@ ReactDOM.render(
     <React_card 
       Mi_perfil = {Mi_perfil}
       name = "Victor"
+      correo = "vicvane21@outlook.com"
+      link = {"https://www.instagram.com/kings_pickss/"}
+      empresa = "kings_pickss"
     />
   </React.StrictMode>,
   document.getElementById('root')
