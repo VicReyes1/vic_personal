@@ -1,0 +1,14 @@
+#mi_foto{
+    width: 100px;
+    height: 100px;
+    
+}
+.caja:hover{
+    background-color: yellow;
+   border: 1px solid black;
+   display: inline-block;
+   box-shadow: black;
+}
+.imagenPerfil{
+    text-align: center;
+}
