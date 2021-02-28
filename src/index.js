@@ -5,12 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Datos from './mis_datos';
 import React_card from './react_card';
+import Mi_perfil from './mi_perfil.jpg'
 
 let info =["Victor Serrano Reyes", "vicvane21@outlook.com"];
 let [nombre,mail] = info;
 ReactDOM.render(
   <React.StrictMode>
-    <React_card />
+    <React_card 
+      Mi_perfil = {Mi_perfil}
+      name = "Victor"
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
